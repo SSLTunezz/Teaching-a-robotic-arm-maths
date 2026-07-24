@@ -13,7 +13,7 @@ I didn't give up there, I decided I would want to make my own way finding the an
 
 I tried to watch more youtube videos but none of them has videos about arms with 2 joins, one base and one elbox joint. I wanted to start with 2 joints as it would be easy. That's why I had to make up my own method to calculate how to get the angles. This was a very big procces and a read me can't really do it justice but here are some challenges I faced during this
 
-1. It started off with CHAT GPT (didn't work well but gave me a starting idea)
+1. It started off with searching online, and I didn't get super far, every source, including the ai suggestions you get when you search somethign up reccomended using more complex math like matrixes and co ordinate transformations
 2. It was fairly easy to get the middle angle (elbow joint) with the cosine rule but I was mainly stuggling with finding the base angle as since the middle angle would be there, I would need to calculate projection angle which would require complicated math going against my goal.
 3. Thats why I made my triangle isocoleses so I could use trianlge properties to calculate the projection agnle (trust me It will make sense when I explain it below)
 
