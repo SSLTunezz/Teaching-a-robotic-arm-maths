@@ -38,3 +38,38 @@ Well... It started of with coding. Obv I had to code the math I explained execpt
 I designieed in onshape and the first thign I did was model the servos I was going to use which were the servo mg 90s, luckily this guy on Reddit had a usefull picture with the dimenstions of the servo so I first made that. Now that that was moddeled I starting making a case around the servo model, Then I made arms which were fairly basic, just connecters and I made it so that the total legnth was 10 cm long. Something I ran into the way of making this was I completely forgot the legnths of the servos itself, I was asuming they were 0. I had to incooperate this and then rethink and remodel my design accordingly.
 
 I had to remodel again after I heard about Servo disc mounts, these would be an effective way to mount 3d prints onto my servo without the gear slipping. 
+
+
+And well I must say, I got super lucky with my design. there were so much things I overlooked that somehow worked that shouldn't have. I had to do some manual editing of the 3d prints which involved sawing stuff with a ruler. Really it depends on your tolerance values.
+
+
+How to assemble.
+
+If you have printed/got everything you will have the following parts 
+
+2 rectangles of a length 5 cm
+1 rectangle slightly smaller
+3 disc mounts 
+buncha screws
+2 same servo holders
+1 slightly different servo holder
+3 MG90S Servos
+Arduino
+buncha wires
+bolts
+
+
+
+1: Screw the Disc Mount onto the servos.
+2. The rectangle brick will have 4 holes, the disc mount will also have 4 holes, line this up and put screws and bolts through or hot glue it so they are secured, do for all.
+3. Put your servos into the cases.
+4. Since you have 2 servos that are the same and one different one arrange it like so
+
+Same one  + Arm
+                Same + Arm
+Different + arm
+
+Putting the arm is in pretty self explanatory. You put the cylinders into the hole and glue it in.
+
+It should look like this when your done:
+
