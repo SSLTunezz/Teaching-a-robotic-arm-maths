@@ -22,10 +22,31 @@ THE PROCESS:
 
 **Before I explain this a picutre would be usefull so its easy to understand, hence I will draw a diagram of how the robot looks.*
 
-1. First we need to take an co ordinate input and calculate the distance between it. This is pretty straightforward and can be done with the distance formula. Suppose you pick the point (3,4), to calculate the distance between the origin (the base) and this point it's simply $D^2=x^2+y^2$, where D is distance, and x and y are the side legnths, but since we are starting from the origin, the x and y are zero. For our example the equation would result to $3^2+4^2$ which would be 25. Now that we know d^2, we need to square root that, so the distance in the end is $\sqrt{25}$ which is 5. Now that we know the distance we can move on to the next step.
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|          . . . . . . . . . . 
+|        . M                  P
+|       .
+|      .
+|     .
+|    .
+|   .
+|  .
+| . Bottom
+|_____________________________________________________________________
 
-1. You see the middle angle named middle angle? Now, we need to calculate that. We can calculate this by using the cosine rule which is $a^2=b^2+c^2-2bc·cos(A)$ (see image below)
-![Screenshot 2026-06-26 at 13.14.26.png](../../../../var/folders/k4/99cxv25d3rsg_nmstybx4pl40000gn/T/TemporaryItems/NSIRD_screencaptureui_d8UIEE/Screenshot%202026-06-26%20at%2013.14.26.png)
+1. First we need to take an co ordinate input and calculate the distance between it, so we are calculating the distance between Bottom and P. This is pretty straightforward and can be done with the distance formula. Suppose you pick the point (3,4), to calculate the distance between the origin (the base) and this point it's simply $D^2=x^2+y^2$, where D is distance, and x and y are the side legnths, but since we are starting from the origin, the x and y are zero. For our example the equation would result to $3^2+4^2$ which would be 25. Now that we know d^2, we need to square root that, so the distance in the end is $\sqrt{25}$ which is 5. Now that we know the distance we can move on to the next step.
+
+1. You see the middle angle named m? Now, we need to calculate that. We can calculate this by using the cosine rule which is $a^2=b^2+c^2-2bc·cos(A)$
 since we want to angle, we can rearange the formula to $cos(A)$ = $(b^2+c^2-a^2)\over2bc$. (See picutre to get what I'm talking about), now we can use our distance a, and our x and y co ordinate to get b and c and we can solve for the angle
 2. Now some tricky parts come in, you might have learned that when using sine or cosine etc they are sysmterical so there are 2 anwsers. If you don't know this search it up, but basically cos(10)=x and cos (170) can also be X. This just means there are two possible anwsers to the problem, which is why with the anwser we get we store it in one variable, and we do cos(180-A) to get our second possible anwser and store it in our second variable. 
 3.  Finally we need the base angle, instead of calcualting projection angle I use properties of trianngle to find out the base angle. First lets find the normal base angle assuming the robot was a straight line, we can do this with $Angle=$ $tan^-1$ $x\over y$, where x and y and the side lenghts, but in this case the co ordinates. Now obv this angle ignores the bend in the middle arm and to counter act the bend we can do some simple math. Since this robot has both arm legnths the same we can make an isocleles triangle. With basic math we can find the other two legnths, now if we take our tan anlge and substract teh side angle with it we have our base angle that includes the projection. YIPEE I KNOW THAT WAS CONFUSING BUT WE GOT THROUGH IT
@@ -39,8 +60,9 @@ I designieed in onshape and the first thign I did was model the servos I was goi
 
 I had to remodel again after I heard about Servo disc mounts, these would be an effective way to mount 3d prints onto my servo without the gear slipping. 
 
+Well so after that I was like "WAIT, PYTHON DOESNT WORK ON ARDUINO, NONONONONONONON!!!!" Yeah I was pretty stupid for not seeing that in hindsight ngl. While I was doing my basic testing just to see if everything works I used an Python to Arduino converter but after that I saw how wrong the logic was so I manually did it myself, yes it was kinda painfull but IG I know arduino now.
 
-And well I must say, I got super lucky with my design. there were so much things I overlooked that somehow worked that shouldn't have. I had to do some manual editing of the 3d prints which involved sawing stuff with a ruler. Really it depends on your tolerance values.
+And well I must say, I got super lucky with my design. there were so much things I overlooked that somehow worked that shouldn't have. I had to do some manual editing of the 3d prints which involved sawing stuff with a ruler. Really it depends on your tolerance values. 
 
 
 How to assemble.
@@ -73,3 +95,15 @@ Putting the arm is in pretty self explanatory. You put the cylinders into the ho
 
 It should look like this when your done:
 
+Additionally you can chose some height elavation object of your choosing and glue it down to the bottom two servos so your arms don't bonk the ground.
+
+
+
+
+
+Future Plans! Yipeee!
+Well rn it 2 dof which stands for degrees of freedom. I want to increase it to 3 degrees, and introduce a x,y,z co ordinate input instead of just x y. Also I want to come back to the design and make it look more sophistacated because right now it looks like chainsaw mans head. I also want to switch from servo motors to actual motors that can read what position they are in and whatnot becuase that opens a buncha possibilties. 
+
+
+How you can contribute:
+Reach out to me on Slack @SSLTunezz, and we can chat on future additions and how we can work together!
