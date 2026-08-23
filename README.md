@@ -1,3 +1,6 @@
+VIEW THE README RAW TRUST ME IT KNLY MAKES SENSE THEN
+
+
 THE README THUS FAR:
 The goal of this project is to calculate the inverse kinematics movement of a robot with 2 joins as simply as possible with only high school trig.
 
