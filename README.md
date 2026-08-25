@@ -1,4 +1,3 @@
-VIEW THE README RAW TRUST ME IT KNLY MAKES SENSE THEN
 
 
 THE README THUS FAR:
@@ -99,7 +98,9 @@ Putting the arm is in pretty self explanatory. You put the cylinders into the ho
 
 It should look like this when your done:
 
-Additionally you can chose some height elavation object of your choosing and glue it down to the bottom two servos so your arms don't bonk the ground.
+<img width="166" height="214" alt="Image" src="https://github.com/user-attachments/assets/e4247b03-f37d-47a0-913c-ee5e66416257" />
+
+Additionally you can chose some height elavation object of your choosing and glue it down to the bottom two servos so your arms don't bonk the ground. I put two jenga blocks. Welp thats two less blocks for jenga.
 
 
 
