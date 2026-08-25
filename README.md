@@ -24,6 +24,7 @@ I tried to watch more youtube videos but none of them has videos about arms with
 THE PROCESS:
 
 **Before I explain this a picutre would be usefull so its easy to understand, hence I will draw a diagram of how the robot looks.*
+ <img width="607" height="366" alt="Image" src="https://github.com/user-attachments/assets/f78127b1-273d-464c-94a1-f96484af8fe2" />
 
 |
 |
