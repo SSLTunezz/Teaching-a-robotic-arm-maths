@@ -144,3 +144,16 @@ Reach out to me on Slack @SSLTunezz, and we can chat on future additions and how
 
 DEMO LINK 
 https://drive.google.com/file/d/1qmYexr-8E29YCL-N8himiiR_IIRRlL7u/view?usp=sharing
+
+
+
+
+BOMBOMBOMBOMBOBOM
+Bill Of Materials:
+
+3x Servo MG90s: 5 euro Per Piece
+Prints: Custom Price depending on material, scale etc. I used PLA
+MCU of any sort with Digital pins, but I used an arduino mega 2560: 18 euros (this is an indivual price, but I'd reccomend using any Microcontroller you have or getting an kit with an arduino.
+
+Total Costs for this exact setup: 32 Euros (can be much lower)
+
